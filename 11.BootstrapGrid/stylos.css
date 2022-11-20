@@ -1,0 +1,27 @@
+.row{
+    margin: 10px;
+}
+.col-{
+    background-color: red;
+    margin: 5px;
+}
+.col-sm-{
+    background-color: rgb(234, 255, 0);
+    margin: 5px;
+}
+.col-md-{
+    background-color: rgb(60, 0, 255);
+    margin: 5px;
+}
+.col-lg-{
+    background-color: rgb(0, 255, 17);
+    margin: 5px;
+}
+.col-xl-{
+    background-color: rgb(255, 0, 98);
+    margin: 5px;
+}
+.col-xxl-{
+    background-color: rgb(179, 0, 255);
+    margin: 5px;
+}

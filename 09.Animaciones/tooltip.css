@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.btn-tooltip{
+    position: relative;
+padding: 10px 20px;
+border: none;
+border-radius: 8px;
+background-color: aquamarine;
+border-bottom: 2px solid darkslategray;
+cursor: pointer;
+transition: all 1s;
+}
+
+.btn-tooltip:hover{
+    background-color: aqua;
+}
+.tooltip{
+    opacity: 0;
+    position: absolute;
+    top: -50px;border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #333;
+}
+.btn-tooltip:hover .tooltip{
+opacity: 1;
+}

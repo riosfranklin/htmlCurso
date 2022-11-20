@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="/07.formulariosOscuro/css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registrate en los formularios</h2>
+      <div class="buttons">
+          <button class="google-btn">
+            <picture>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU" alt="logo google">
+            </picture>
+            <span>Registrate en Google</span>
+          </button>
+          <button class="twitter-btn">
+            <picture><img src="https://as1.ftcdn.net/v2/jpg/03/20/88/34/1000_F_320883488_PMmkQget359WtY6foB1xFN3Wcvus6WTM.jpg" alt="logo twiter"></picture>
+          </button>
+      </div>
+
+      <div class="separator">
+        <hr />
+        <span>Or</span>
+        <hr />
+      </div>
+
+      <form action="" method="">
+
+        <div class="section-input">
+
+          <label class="label" for="name">
+            <span>Name:</span>
+            <input type="text" name="name" id="name" />
+          </label>
+          
+          <label class="label" for="username">
+            <span>Username:</span>
+            <input type="text" name="username" id="username" />
+          </label>
+        </div>
+
+        <br>
+
+          <label class="label" for="email">
+            <span>email:</span>
+            <input type="email" name="email" id="email" />
+          </label>
+
+        <br> <br>
+
+          <label class="label" for="password">
+            <span>Password:</span>
+            <input
+              type="password"
+              placeholder="6+ caracter"
+              name="password"
+              id="password"
+            />
+          </label>
+
+          <br><br>
+
+          <label class="ckeckbox" for="checkbox">
+            <input class="incheck"  type="checkbox" name="ckeckbox" id="checkbox" />
+            <span class="span">Acepto las condiciones y el aviso legal.</span>
+          </label>
+          <br><br>
+
+          <button class="submit-btn" type="submit">CREAR CUENTA</button>
+
+        </form>
+      </div>
+  </body>
+</html>

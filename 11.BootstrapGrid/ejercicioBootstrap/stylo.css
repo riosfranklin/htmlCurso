@@ -1,0 +1,22 @@
+h1{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+.container{
+   
+    background-color: aqua;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: blue;
+    text-align: center;
+    padding: 4px;
+    color: #ffffff;
+    border: 2px solid white;
+}

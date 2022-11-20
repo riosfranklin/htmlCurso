@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.btn-modern{
+    padding: 10px 25px;
+    border: none;
+    color: #ffffff;
+    background-color: brown;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn-modern:hover{
+    transform: translateX(-5px);
+    box-shadow: 5px 5px 5px rgb(116, 105, 105);
+    background-color: #ffffff;
+    color: #000000 ;
+}
